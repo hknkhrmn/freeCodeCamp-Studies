@@ -32,6 +32,25 @@ const platform = message.slice(11, 23);
 //Use either a template literal or string concatenation to log the message The word "<platform>" was sliced from the message. to the console. 
 // Replace <platform> with the actual value of the variable.
 
+console.log(`The word "${platform}" was sliced from the message.`);
 
+// Step 10
+// You can use slice() to extract from the beginning of a string.
+// Create a variable named greetingWord. Then assign it the result of using message.slice(0, 7) to extract the first word "Welcome".
+// Then use either a template literal or string concatenation to log the message The first word is "<greetingWord>". to the console. Replace <greetingWord> with the actual value of the variable.
 
+const greetingWord = message.slice(0, 7);
+console.log(`The first word is "${greetingWord}".`);
 
+// Step-11
+// Create a variable named endPunctuation. Then assign it the result of using message.slice(-1) to extract the last character.
+// Then use either a template literal or string concatenation to log the message The ending punctuation mark is a "<endPunctuation>" to the console. Replace <endPunctuation> with the actual value of the variable.
+
+const endPunctuation = message.slice(-1);
+
+console.log(`The ending punctuation mark is a "${endPunctuation}"`);
+
+// Step 12
+// As a final step, add a console.log() statement with the message: "Workshop complete! You now know how to use includes() and slice()."
+
+console.log("Workshop complete! You now know how to use includes() and slice().");
