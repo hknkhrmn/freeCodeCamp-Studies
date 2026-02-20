@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>Coding Fun Facts</title>
+</head>
+<body>
+  <h1>Coding Fun Facts</h1>
+  <pre id="output"></pre>
+
+  <script>
+    const _log = console.log;
+    console.log = msg => { _log(msg); document.getElementById('output').textContent += msg + '\n'; };
+  </script>
+  <script src="script.js"></script>
+</body>
+</html>
