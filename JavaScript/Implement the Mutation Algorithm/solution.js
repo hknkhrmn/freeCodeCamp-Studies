@@ -14,3 +14,4 @@ function mutation(arr) {
 
 console.log (mutation(["hello", "hey"]));  // false
 console.log (mutation(["Hakan", "hakhak"])); // true
+console.log (mutation(["hakan", "hakan"])); // true
